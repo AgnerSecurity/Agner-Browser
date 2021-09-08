@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
        self.browser.urlChanged.connect(self.update_url)
 
    def navigate_home(self):
-       self.browser.setUrl(QUrl('http://baidu.com'))
+       self.browser.setUrl(QUrl('https://duckduckgo.com/'))
 
    def navigate_to_url(self):
        url = self.url_bar.text()
